@@ -1,0 +1,305 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background:linear-gradient(90deg, #22c1c3, #fdbb2d); 
+}
+
+.logo {
+    width: 940px; 
+    position: relative; 
+    margin: 50px 8%;
+}
+
+/*///////////////////////////////////////////////*/
+
+main{
+    width: auto;
+    display: flex;
+}
+
+.textin{
+    width: 60%;
+}
+.divtextin{
+    margin: 0;
+    width: 100%;
+}
+.textin_class{
+    opacity: 0.6;
+    background: linear-gradient(90deg, #22c1c3, #fdbb2d); 
+    margin: 0 0 0 20%;
+    position: relative;
+    border-radius: 24px;
+    resize: none;
+    background-color: #070707;
+    border: 0;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+textarea::placeholder{
+    color: #0A3871;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+/*///////////////////////////////////////////////*/
+
+.principalbuttons{
+    width: 100%;
+    margin: 30px 5px;
+}
+.divtextadvice{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+    height: 18px;
+    margin: 5px 20%;
+}
+.textadvice{
+    width: 400px;
+    height: 18px;
+    margin: 0 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #000000;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: .5rem;
+}
+.buttons{
+    display:block;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 100%;
+    height: 70px;
+    margin: 5px 0 5px 20%;
+}
+.button_encriptar{
+    /*border: 0;*/
+    border: 0;
+    width: 35%;
+    height: 67px;
+    background: linear-gradient(180deg, #22c1c3 100%, #fdbb2d); 
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color:  #0A3871;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    /*font-weight: bold;*/
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.8;
+}
+.button_desencriptar{
+    /*border: 0;*/
+    border: 0;
+    width: 35%;
+    height: 67px;
+    background:linear-gradient(87deg, #22c1c3 0%, #fdbb2d 99%);
+    border-radius: 24px;
+    border-color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color:  #0A3871;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    /* font-weight: bold;*/
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 0.8;
+
+}
+
+
+/*///////////////////////////////////////////////*/
+
+
+.textout{
+    width: 40%;
+    
+}
+.divtextout{
+    text-align: center;
+    width: 80%;
+    height: 550px;
+    margin: auto;
+}
+.textout_class{
+    opacity: 0.6;
+    background:linear-gradient(90deg, #22c1c3, #fdbb2d); 
+    resize: none;
+    margin: auto;
+    border-radius: 24px;
+    border-width: 0;
+    background-image: url(Imagenes/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    
+}
+
+#textoutspace::placeholder{
+    vertical-align: bottom;
+    text-align:center;
+}
+
+.button_copiar{
+    display: inline-block;
+    border: 0;
+    width: 35%;
+    height: 67px;
+    margin: 23px;
+    background:linear-gradient(90deg, #22c1c3 , #fdbb2d 0%); 
+    border-radius: 25px;
+    border-color: #0A3871;
+    flex: none;
+    order: 0;
+    opacity: 0.8;
+    flex-grow: 0;
+    color: #0A3871;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    box-shadow: 0 0 0 0 rgba(0, 0, .5);
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(17, 17, 16, 10%);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 25px rgba(256, 256, 265, 0%);
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 265, 0%);
+    }
+}
+
+
+/*///////////////////////////////////////////////*/
+
+
+footer {
+    position: 100%;
+    right: 25px;
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(90deg, #22c1c3, #fdbb2d);  
+    padding: 55px; 
+}
+
+a {
+    margin: auto;
+    font-size: large;
+    font-style: normal;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    main{
+        display: block;
+    
+    }
+    
+    .logo{
+        width: auto;
+        text-align: center;
+    }
+    .textin{
+        width: 100%;
+        text-align: center;
+    }
+    .divtextin{
+        text-align: center;
+    }
+    
+    .textin_class{
+        margin: auto;
+    }
+    
+    .divtextadvice{
+        width: auto;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+    }
+    .textadvice{
+        width: auto;
+    }
+    .buttons{
+        width: auto;
+        margin: auto;
+        text-align: center;
+    }
+    
+    .button_desencriptar{
+        width: auto;
+    }
+    .button_encriptar{
+        width: auto;
+    }
+    .textout{
+        width: 100%;
+        margin: 25px 0 0 0;
+    }
+    
+    .divtextout{
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .textout_class{
+        width: 100%;
+    }
+}  

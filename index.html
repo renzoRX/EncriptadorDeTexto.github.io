@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <h1> <img src="Imagenes/Logo.png"> </h1>    
+            </div>
+        </header>
+
+        <main>
+            <section class="textint">
+
+                <div class="divtextin">
+                    <label for="textin"></label>
+                    <textarea cols="90" rows="55" id="textin" class="textin_class" required placeholder="Ingrese el texto aqui" style="width: 70%; height: 550px;"></textarea>
+                </div>
+
+                <div class="divtextadvice">
+                    <h2> <img src="Imagenes/advice.png"> </h2>
+                    <h3 class="textadvice">Solo letras minúsculas y sin acentos</h3>
+                </div>
+
+                <div class="buttons">
+                    <button class="button_encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="button_desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+
+            </section>
+
+
+            <section class="textout">
+                <div class="divtextout">
+                        <label for="textoutspace"></label>
+
+                        <textarea cols="90" rows="55" id="textoutspace" class="textout_class" required placeholder="Ningún mensaje fue encontrado " style="width: 70%; height: 550px;"></textarea>
+
+                        <button id="botoncopiar" class="button_copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+
+        
+        </main>
+
+        <script src="scripts.js"></script>
+
+        <footer>
+            <a href="https://github.com/renzoRX" target="target">
+                <img src="imagenes/GitHub.png">
+            </a>
+        </footer>
+
+    </body>
+
+
+
+</html>
